@@ -11,7 +11,7 @@ if option==1: #start student version
             if Pass not in range(0,121,20):
                 print('Out of range.') #out of range part(Pass)
                 print()
-                #continue
+                continue
             defer=int(input('Please enter your credit at defer: '))
             if defer not in range(0,121,20):
                 print('Out of range.') #out of range part(defer)
